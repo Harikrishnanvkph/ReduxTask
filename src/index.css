@@ -1,0 +1,200 @@
+.nav-page{
+    background-color: lightcoral;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 7rem;
+}
+
+
+.nav-link {
+    margin: 0%;
+    height: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    & li{
+        padding: 20px 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: red;
+    }
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.dream{
+    color: white;
+}
+
+.jackie{
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.phone-image{
+     width: 150px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & img{
+        max-width: 100%;
+        height: 75%;  
+    }
+}
+
+.phone-price,
+.phone-price-discount,
+.title{
+    margin: 10px 0px !important;
+    font-weight: lighter;
+}
+
+
+.monster{
+    display: flex;
+}
+
+.cart-items,
+.phone-home{
+    width: 100%;
+    margin-left: 7rem;
+    & *{
+        padding: 0%;
+        margin: 0%;
+    }
+}
+
+.rating,
+.phone-price-discount{
+    gap:10px
+}
+
+.phone-card{
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.phone-show{
+    padding: 5px;
+}
+
+.phone-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.buttons{
+    gap: 7px;
+    & button{
+        background-color: lightcoral;
+        border: transparent;
+    }
+}
+
+.button-cart{
+    background-color: lightcoral;
+    padding: 5px;
+    border: transparent;
+}
+
+.cart{
+    gap: 8px;
+}
+
+.cart-image{
+    width: 75px;
+    height: 150px;
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit:contain;
+    }
+}
+
+.cart-items{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+
+.cart-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid silver;
+    padding: 15px;
+}
+
+.final-price{
+    font-weight: lighter;
+}
+
+.cart-total,
+.show-price{
+    font-weight: 400;
+}
+
+
+.mixture-price{
+    font-weight: 500 !important;
+}
+
+.btnShow{
+    gap: 5px;
+    & button{
+        background-color: lightcoral;
+        border: none;
+    }
+}
+
+.cart-header{
+    max-width: 100%;
+    width: 100vw;
+    height: 4rem;
+    position: fixed;
+    top: 0px;
+    left:7rem;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:azure;
+    z-index: 1;
+}
+.cart-master{
+    margin-top: 3.4rem !important;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dd{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.cart-order{
+    gap: 15px;
+    border: 1px dashed black;
+    padding: 5px;
+    & button{
+        font-weight: lighter;
+        padding: 5px 10px !important;
+    }
+}
+
+.cart-no{
+    margin-left: 7rem;
+}
